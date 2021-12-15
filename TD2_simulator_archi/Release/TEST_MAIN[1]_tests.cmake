@@ -1,0 +1,5 @@
+add_test( UnitaryTest.ProblemTest /home/elhadji/Bureau/chps2021/TD2_simulator_archi/Release/TEST_MAIN [==[--gtest_filter=UnitaryTest.ProblemTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( UnitaryTest.ProblemTest PROPERTIES WORKING_DIRECTORY /home/elhadji/Bureau/chps2021/TD2_simulator_archi/Release)
+add_test( MainFunctionTest.ITimeDiscretizationTest /home/elhadji/Bureau/chps2021/TD2_simulator_archi/Release/TEST_MAIN [==[--gtest_filter=MainFunctionTest.ITimeDiscretizationTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( MainFunctionTest.ITimeDiscretizationTest PROPERTIES WORKING_DIRECTORY /home/elhadji/Bureau/chps2021/TD2_simulator_archi/Release)
+set( TEST_MAIN_TESTS UnitaryTest.ProblemTest MainFunctionTest.ITimeDiscretizationTest)

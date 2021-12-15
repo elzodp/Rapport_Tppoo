@@ -1,0 +1,68 @@
+Start testing: Dec 15 18:45 CET
+----------------------------------------------------------
+1/3 Testing: UnitaryTest.ProblemTest
+1/3 Test: UnitaryTest.ProblemTest
+Command: "/home/elhadji/Bureau/chps2021/TD2_simulator_archi/Release/TEST_MAIN" "--gtest_filter=UnitaryTest.ProblemTest" "--gtest_also_run_disabled_tests"
+Directory: /home/elhadji/Bureau/chps2021/TD2_simulator_archi/Release
+"UnitaryTest.ProblemTest" start time: Dec 15 18:45 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = UnitaryTest.ProblemTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitaryTest
+[ RUN      ] UnitaryTest.ProblemTest
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Failed.
+"UnitaryTest.ProblemTest" end time: Dec 15 18:45 CET
+"UnitaryTest.ProblemTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: MainFunctionTest.ITimeDiscretizationTest
+2/3 Test: MainFunctionTest.ITimeDiscretizationTest
+Command: "/home/elhadji/Bureau/chps2021/TD2_simulator_archi/Release/TEST_MAIN" "--gtest_filter=MainFunctionTest.ITimeDiscretizationTest" "--gtest_also_run_disabled_tests"
+Directory: /home/elhadji/Bureau/chps2021/TD2_simulator_archi/Release
+"MainFunctionTest.ITimeDiscretizationTest" start time: Dec 15 18:45 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MainFunctionTest.ITimeDiscretizationTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MainFunctionTest
+[ RUN      ] MainFunctionTest.ITimeDiscretizationTest
+[       OK ] MainFunctionTest.ITimeDiscretizationTest (0 ms)
+[----------] 1 test from MainFunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MainFunctionTest.ITimeDiscretizationTest" end time: Dec 15 18:45 CET
+"MainFunctionTest.ITimeDiscretizationTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: probtest
+3/3 Test: probtest
+Command: "/home/elhadji/Bureau/chps2021/TD2_simulator_archi/Release/TEST_MAIN"
+Directory: /home/elhadji/Bureau/chps2021/TD2_simulator_archi/Release
+"probtest" start time: Dec 15 18:45 CET
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitaryTest
+[ RUN      ] UnitaryTest.ProblemTest
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Failed.
+"probtest" end time: Dec 15 18:45 CET
+"probtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 15 18:45 CET
